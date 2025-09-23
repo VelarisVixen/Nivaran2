@@ -13,51 +13,51 @@
   */
   :root {
     /* Pastel blue / white theme (H S% L% format) */
-    --background: 210 60% 98%; /* very light pastel blue */
+    --background: 0 0% 100%; /* white background */
     --foreground: 215 18% 18%; /* deep blue for text */
 
-    --card: 210 60% 100%; /* near-white card base */
+    --card: 0 0% 100%; /* white card base */
     --card-foreground: 215 18% 18%;
 
-    --popover: 210 60% 100%;
+    --popover: 0 0% 100%;
     --popover-foreground: 215 18% 18%;
 
-    --primary: 205 70% 85%; /* pastel blue */
+    --primary: 78 100% 84%; /* lime (#E7FFAD) */
     --primary-foreground: 215 22% 18%;
 
-    --secondary: 210 40% 96%;
+    --secondary: 78 100% 96%;
     --secondary-foreground: 215 18% 18%;
 
-    --muted: 210 40% 96%;
+    --muted: 78 100% 96%;
     --muted-foreground: 215 14% 45%;
 
-    --accent: 205 80% 88%;
+    --accent: 78 100% 88%;
     --accent-foreground: 215 18% 18%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 210 60% 92%;
-    --input: 210 60% 95%;
-    --ring: 205 70% 85%;
+    --border: 78 40% 90%;
+    --input: 78 100% 97%;
+    --ring: 78 100% 84%;
 
     --radius: 0.75rem;
 
-    --sidebar-background: 210 55% 98%;
+    --sidebar-background: 0 0% 100%;
 
     --sidebar-foreground: 215 18% 18%;
 
-    --sidebar-primary: 205 75% 85%;
+    --sidebar-primary: 78 100% 84%;
 
     --sidebar-primary-foreground: 215 18% 18%;
 
-    --sidebar-accent: 210 60% 96%;
+    --sidebar-accent: 78 100% 96%;
 
     --sidebar-accent-foreground: 215 18% 18%;
 
-    --sidebar-border: 210 60% 92%;
+    --sidebar-border: 78 40% 90%;
 
-    --sidebar-ring: 205 70% 85%;
+    --sidebar-ring: 78 100% 84%;
 
     /* Additional variables for loader component */
     --radius-sm: calc(var(--radius) - 4px);
@@ -126,7 +126,7 @@
 @layer utilities {
   /* Glass surface utility for dialogs and panels */
   .glass {
-    background: rgba(240, 248, 255, 0.66); /* light pastel blue */
+    background: rgba(231, 255, 173, 0.66); /* light lime */
     backdrop-filter: blur(8px) saturate(120%);
     -webkit-backdrop-filter: blur(8px) saturate(120%);
     border: 1px solid rgba(255, 255, 255, 0.6);
