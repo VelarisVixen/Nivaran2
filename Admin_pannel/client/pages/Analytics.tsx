@@ -50,8 +50,8 @@ export default function Analytics() {
               <CartesianGrid vertical={false} strokeDasharray="3 3" />
               <XAxis dataKey="month" tickLine={false} axisLine={false} />
               <YAxis />
-              <Line type="monotone" dataKey="reported" stroke="var(--color-reported)" strokeWidth={2} dot={false} />
-              <Line type="monotone" dataKey="resolved" stroke="var(--color-resolved)" strokeWidth={2} dot={false} />
+              <Line type="monotone" dataKey="reported" stroke="var(--color-reported)" strokeWidth={3} dot={false} />
+              <Line type="monotone" dataKey="resolved" stroke="var(--color-resolved)" strokeWidth={3} dot={false} />
               <ChartTooltip content={<ChartTooltipContent />} />
               <ChartLegend content={<ChartLegendContent />} />
             </LineChart>
