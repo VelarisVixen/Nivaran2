@@ -64,7 +64,7 @@ export default function SupervisorAnalytics() {
               <CartesianGrid vertical={false} strokeDasharray="3 3" />
               <XAxis dataKey="name" tickLine={false} axisLine={false} tickMargin={8} />
               <YAxis hide />
-              <Line type="monotone" dataKey="value" stroke="var(--color-value)" strokeWidth={2} dot={false} />
+              <Line type="monotone" dataKey="value" stroke="var(--color-value)" strokeWidth={3} dot={false} />
               <ChartTooltip content={<ChartTooltipContent />} />
               <ChartLegend content={<ChartLegendContent />} />
             </LineChart>

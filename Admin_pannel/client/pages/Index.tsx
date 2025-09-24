@@ -57,7 +57,7 @@ export default function Index() {
                 <CartesianGrid vertical={false} strokeDasharray="3 3" />
                 <XAxis dataKey="date" tickLine={false} axisLine={false} minTickGap={24} tickMargin={8} />
                 <YAxis hide />
-                <Area type="monotone" dataKey="value" stroke="var(--color-Reports)" fill="var(--color-Reports)" fillOpacity={0.15} />
+                <Area type="monotone" dataKey="value" stroke="var(--color-Reports)" strokeWidth={2} fill="var(--color-Reports)" fillOpacity={0.25} />
                 <ChartTooltip content={<ChartTooltipContent nameKey="Reports" />} />
               </AreaChart>
             </ChartContainer>
